@@ -14,4 +14,7 @@
        respose bool
     }
     
- #    
+ #  Return  opt
+        else if(isset($_POST['reg_val_no'])){
+          $reg_val_no=$_POST['reg_val_no'];
+     }
